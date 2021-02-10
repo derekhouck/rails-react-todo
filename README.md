@@ -1,24 +1,14 @@
-# README
+# Rails & React ToDo App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Getting the app up and running
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone the repo: `git clone git@github.com:derekhouck/rails-react-todo.git`
+1. Go to the app: `cd rails-react-todo`
+1. Install the dependencies: `bundle install`
+1. Create the databases: `rake db:create`
+1. Start the Rails server: `rails s -p 3001`
+1. Start the React app:
+   - cd client
+   - yarn install
+   - yarn start
+1. If the app doesn't open automatically, go to http://localhost:3000/
