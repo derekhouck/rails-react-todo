@@ -8,7 +8,7 @@
 1. Create the databases: `rake db:create`
 1. Start the Rails server: `rails s -p 3001`
 1. Start the React app:
-   - cd client
-   - yarn install
-   - yarn start
+   - `cd client`
+   - `yarn install`
+   - `yarn start`
 1. If the app doesn't open automatically, go to http://localhost:3000/
